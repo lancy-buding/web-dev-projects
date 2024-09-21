@@ -1,11 +1,24 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/react-logo.png";
+import meter2 from "../assets/img/javascript-logo.svg";
+import meter3 from "../assets/img/nextjs-13.svg";
+import meter4 from "../assets/img/tailwind-css-1.svg";
+import meter5 from "../assets/img/typescript.svg";
+import meter6 from "../assets/img/css.svg";
+import meter7 from "../assets/img/nodejs.svg";
+import meter8 from "../assets/img/mongodb.svg";
+import meter9 from "../assets/img/python.svg";
+import meter10 from "../assets/img/c++.svg";
+import meter11 from "../assets/img/c.svg";
+import meter12 from "../assets/img/mysql.svg";
+import meter13 from "../assets/img/adobe-photoshop.svg";
+import meter14 from "../assets/img/figma.svg";
+import meter15 from "../assets/img/wireframecc.svg";
+import meter16 from "../assets/img/wordpress.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
@@ -35,23 +48,80 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <br /><br />
+                        <h4>Front-end</h4><br />
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={meter1} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }} />
+                                <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={meter2} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }}/>
+                                <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={meter3} alt="Image" style={{ marginTop:"50px", marginBottom: "82px" }}/>
+                                <h5>NextJS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={meter4} alt="Image" style={{  marginTop:"40px", marginBottom: "72px"  }}/>
+                                <h5>Tailwind CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter5} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }}/>
+                                <h5>TypeScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter6} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }}/>
+                                <h5>CSS</h5>
+                            </div>
+                        </Carousel>
+                        <br /><br /><br />
+                        <h4>Back-end</h4><br />
+                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            <div className="item">
+                                <img src={meter7} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }} />
+                                <h5>NodeJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter8} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }}/>
+                                <h5>mongoDB</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter9} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover"}}/>
+                                <h5>Python</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter10} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }}/>
+                                <h5>C++</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter11} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }}/>
+                                <h5>C</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter12} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }}/>
+                                <h5>MySQL</h5>
+                            </div>
+                        </Carousel>
+                        <br /><br /><br />
+                        <h4>UI/UX Design</h4><br />
+                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            <div className="item">
+                              <img src={meter13} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover" }} />
+                                <h5>Adobe Photoshop</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter14} alt="Image" style={{ width: "100px", height: "", objectFit: "cover" }}/>
+                                <h5>Figma</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter15} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover"}}/>
+                                <h5>Wireframe.cc</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter16} alt="Image" style={{ width: "150px", height: "150px", objectFit: "cover"}}/>
+                                <h5>WordPress</h5>
                             </div>
                         </Carousel>
                     </div>
